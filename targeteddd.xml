@@ -1,0 +1,871 @@
+﻿<dataDictionary>
+  <form>
+    <formId>15</formId>
+    <formName>Targeted Biological Data</formName>
+    <formLabelEnglish>Targeted Biological Data</formLabelEnglish>
+    <formLabelSpanish>Targeted Biological Data</formLabelSpanish>
+    <sections>
+      <section>
+        <sectionId>136</sectionId>
+        <sectionLabelEnglish>Phenol Data Dictionary</sectionLabelEnglish>
+        <sectionLabelSpanish>Phenol Data Dictionary</sectionLabelSpanish>
+        <fields>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2484</fieldId>
+            <fieldName>samname</fieldName>
+            <fieldLabelSpanish>Laboratorio de ID de la muestra</fieldLabelSpanish>
+            <fieldLabelEnglish>Laboratory Sample ID</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2485</fieldId>
+            <fieldName>studyid</fieldName>
+            <fieldLabelSpanish>identificación del participante</fieldLabelSpanish>
+            <fieldLabelEnglish>Participant ID</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2486</fieldId>
+            <fieldName>visitid</fieldName>
+            <fieldLabelSpanish>Visite ID</fieldLabelSpanish>
+            <fieldLabelEnglish>Visit ID</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2486</fieldId>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish>First Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Primera Visita</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2486</fieldId>
+                <fieldValue>2</fieldValue>
+                <fieldValueLabelEnglish>Second Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Segunda visita</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2486</fieldId>
+                <fieldValue>3</fieldValue>
+                <fieldValueLabelEnglish>Third Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Tercera visita</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2487</fieldId>
+            <fieldName>conc</fieldName>
+            <fieldLabelSpanish>concentración de analito</fieldLabelSpanish>
+            <fieldLabelEnglish>Analyte concentration (ng/mL)</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>Concentration in terms of ng/mL (ug/L) for all analytes, samples below the LOD have concentrations equal to 1/2 the LOD value</fieldNoteSpanish>
+            <fieldNoteEnglish>Concentration in terms of ng/mL (ug/L) for all analytes, samples below the LOD have concentrations equal to 1/2 the LOD value</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2488</fieldId>
+            <fieldName>BLOD</fieldName>
+            <fieldLabelSpanish>Por debajo del límite de detección</fieldLabelSpanish>
+            <fieldLabelEnglish>Below Limit of Detection</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2488</fieldId>
+                <fieldValue>0</fieldValue>
+                <fieldValueLabelEnglish>No</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>No</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2488</fieldId>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish>Yes,below detection limit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Sí, por debajo del límite de detección</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2489</fieldId>
+            <fieldName>analyte</fieldName>
+            <fieldLabelSpanish>Nombre del analito</fieldLabelSpanish>
+            <fieldLabelEnglish>Analyte Name</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> 24-DCP </fieldValue>
+                <fieldValueLabelEnglish> 24-DCP </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> 24-DCP </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> 25-DCP </fieldValue>
+                <fieldValueLabelEnglish> 25-DCP </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> 25-DCP </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> BP-3 </fieldValue>
+                <fieldValueLabelEnglish> BP-3 </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> BP-3 </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> BPA </fieldValue>
+                <fieldValueLabelEnglish> BPA </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> BPA </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> B-PB </fieldValue>
+                <fieldValueLabelEnglish> B-PB </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> B-PB </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> M-PB </fieldValue>
+                <fieldValueLabelEnglish> M-PB </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> M-PB </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> P-PB </fieldValue>
+                <fieldValueLabelEnglish> P-PB </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> P-PB </fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2489</fieldId>
+                <fieldValue> TCS </fieldValue>
+                <fieldValueLabelEnglish> TCS </fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> TCS </fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2490</fieldId>
+            <fieldName>analyte_full</fieldName>
+            <fieldLabelSpanish>Analito Nombre</fieldLabelSpanish>
+            <fieldLabelEnglish>Full Analyte Name</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>2 4-dichlorophenol</fieldValue>
+                <fieldValueLabelEnglish>2 4-dichlorophenol</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>2 4-dichlorophenol</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>2 5-dichlorophenol</fieldValue>
+                <fieldValueLabelEnglish>2 5-dichlorophenol</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>2 5-dichlorophenol</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>benzophenone-3</fieldValue>
+                <fieldValueLabelEnglish>benzophenone-3</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>benzophenone-3</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>bisphenol A</fieldValue>
+                <fieldValueLabelEnglish>bisphenol A</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>bisphenol A</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>Butyl Paraben</fieldValue>
+                <fieldValueLabelEnglish>Butyl Paraben</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Butyl Paraben</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>Methyl Paraben</fieldValue>
+                <fieldValueLabelEnglish>Methyl Paraben</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Methyl Paraben</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>Propyl Paraben</fieldValue>
+                <fieldValueLabelEnglish>Propyl Paraben</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Propyl Paraben</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2490</fieldId>
+                <fieldValue>triclosan</fieldValue>
+                <fieldValueLabelEnglish>triclosan</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>triclosan</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2491</fieldId>
+            <fieldName>date_analyzed</fieldName>
+            <fieldLabelSpanish>Fecha del análisis</fieldLabelSpanish>
+            <fieldLabelEnglish>Date of Analysis</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>YYYY-MM</fieldNoteSpanish>
+            <fieldNoteEnglish>YYYY-MM</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2492</fieldId>
+            <fieldName>analysis_source</fieldName>
+            <fieldLabelSpanish>Fuente de los datos</fieldLabelSpanish>
+            <fieldLabelEnglish>Source of the Data</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>1-100</fieldNoteSpanish>
+            <fieldNoteEnglish>1-100</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2493</fieldId>
+            <fieldName>analysis_method</fieldName>
+            <fieldLabelSpanish>Método de análisis</fieldLabelSpanish>
+            <fieldLabelEnglish>Method of Analysis </fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>136</sectionId>
+            <fieldId>2494</fieldId>
+            <fieldName>batch</fieldName>
+            <fieldLabelSpanish>Número de lote</fieldLabelSpanish>
+            <fieldLabelEnglish>Batch Number  </fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+          </field>
+        </fields>
+      </section>
+      <section>
+        <sectionId>137</sectionId>
+        <sectionLabelEnglish>Phthalate Data Dictionary</sectionLabelEnglish>
+        <sectionLabelSpanish>Phthalate Data Dictionary</sectionLabelSpanish>
+        <fields>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2495</fieldId>
+            <fieldName>samname</fieldName>
+            <fieldLabelSpanish>Laboratorio de ID de la muestra</fieldLabelSpanish>
+            <fieldLabelEnglish>Laboratory Sample ID</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2496</fieldId>
+            <fieldName>studyid</fieldName>
+            <fieldLabelSpanish>identificación del participante</fieldLabelSpanish>
+            <fieldLabelEnglish>Participant ID</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2497</fieldId>
+            <fieldName>visitid</fieldName>
+            <fieldLabelSpanish>Visite ID</fieldLabelSpanish>
+            <fieldLabelEnglish>Visit ID</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2497</fieldId>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish>First Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Primera Visita</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2497</fieldId>
+                <fieldValue>2</fieldValue>
+                <fieldValueLabelEnglish>Second Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Segunda visita</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2497</fieldId>
+                <fieldValue>3</fieldValue>
+                <fieldValueLabelEnglish>Third Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Tercera visita</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2498</fieldId>
+            <fieldName>conc</fieldName>
+            <fieldLabelSpanish>concentración de analito</fieldLabelSpanish>
+            <fieldLabelEnglish>Analyte concentration (ng/mL)</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>Concentration in terms of ng/mL (ug/L) for all analytes, samples below the LOD have concentrations equal to 1/2 the LOD value</fieldNoteSpanish>
+            <fieldNoteEnglish>Concentration in terms of ng/mL (ug/L) for all analytes, samples below the LOD have concentrations equal to 1/2 the LOD value</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2499</fieldId>
+            <fieldName>BLOD</fieldName>
+            <fieldLabelSpanish>Por debajo del límite de detección</fieldLabelSpanish>
+            <fieldLabelEnglish>Below Limit of Detection</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2499</fieldId>
+                <fieldValue>0</fieldValue>
+                <fieldValueLabelEnglish>No</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>No</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2499</fieldId>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish>Yes,below detection limit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Sí, por debajo del límite de detección</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2500</fieldId>
+            <fieldName>analyte</fieldName>
+            <fieldLabelSpanish>Nombre del analito</fieldLabelSpanish>
+            <fieldLabelEnglish>Analyte Name</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mBP</fieldValue>
+                <fieldValueLabelEnglish>mBP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mBP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mBzP2</fieldValue>
+                <fieldValueLabelEnglish>mBzP2</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mBzP2</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mCNP</fieldValue>
+                <fieldValueLabelEnglish>mCNP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mCNP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mCOP</fieldValue>
+                <fieldValueLabelEnglish>mCOP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mCOP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mCPP</fieldValue>
+                <fieldValueLabelEnglish>mCPP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mCPP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mECPP</fieldValue>
+                <fieldValueLabelEnglish>mECPP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mECPP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mEHHP</fieldValue>
+                <fieldValueLabelEnglish>mEHHP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mEHHP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mEHP</fieldValue>
+                <fieldValueLabelEnglish>mEHP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mEHP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mEOHP</fieldValue>
+                <fieldValueLabelEnglish>mEOHP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mEOHP</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>mEP2</fieldValue>
+                <fieldValueLabelEnglish>mEP2</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>mEP2</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2500</fieldId>
+                <fieldValue>miBP</fieldValue>
+                <fieldValueLabelEnglish>miBP</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>miBP</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2501</fieldId>
+            <fieldName>analyte_full</fieldName>
+            <fieldLabelSpanish>Analito Nombre</fieldLabelSpanish>
+            <fieldLabelEnglish>Full Analyte Name</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-n-butyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-n-butyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-n-butyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Monobenzyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Monobenzyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Monobenzyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-(2,7-dimethyl-7-carboxyheptyl) phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-(2,7-dimethyl-7-carboxyheptyl) phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-(2,7-dimethyl-7-carboxyheptyl) phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-(2,6-dimethyl-6-carboxyhexyl) phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-(2,6-dimethyl-6-carboxyhexyl) phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-(2,6-dimethyl-6-carboxyhexyl) phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-3-carboxypropyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-3-carboxypropyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-3-carboxypropyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-2-ethyl-5-carboxypentyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-2-ethyl-5-carboxypentyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-2-ethyl-5-carboxypentyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-2-ethyl-5-hydroxyhexyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-2-ethyl-5-hydroxyhexyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-2-ethyl-5-hydroxyhexyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-2-ethylhexyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-2-ethylhexyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-2-ethylhexyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-2-ethyl-5-oxohexyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-2-ethyl-5-oxohexyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-2-ethyl-5-oxohexyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Monoethyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Monoethyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Monoethyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2501</fieldId>
+                <fieldValue>Mono-isobutyl phthalate</fieldValue>
+                <fieldValueLabelEnglish>Mono-isobutyl phthalate</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mono-isobutyl phthalate</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2502</fieldId>
+            <fieldName>date_analyzed</fieldName>
+            <fieldLabelSpanish>Fecha del análisis</fieldLabelSpanish>
+            <fieldLabelEnglish>Date of Analysis</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>YYYY-MM</fieldNoteSpanish>
+            <fieldNoteEnglish>YYYY-MM</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2503</fieldId>
+            <fieldName>analysis_source</fieldName>
+            <fieldLabelSpanish>Fuente de los datos</fieldLabelSpanish>
+            <fieldLabelEnglish>Source of the Data</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>1-100</fieldNoteSpanish>
+            <fieldNoteEnglish>1-100</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2504</fieldId>
+            <fieldName>analysis_method</fieldName>
+            <fieldLabelSpanish>Método de análisis</fieldLabelSpanish>
+            <fieldLabelEnglish>Method of Analysis</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>137</sectionId>
+            <fieldId>2505</fieldId>
+            <fieldName>batch</fieldName>
+            <fieldLabelSpanish>Número de lote</fieldLabelSpanish>
+            <fieldLabelEnglish>Batch Number  </fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+          </field>
+        </fields>
+      </section>
+      <section>
+        <sectionId>138</sectionId>
+        <sectionLabelEnglish>Trace Metal Data Dictionary</sectionLabelEnglish>
+        <sectionLabelSpanish>Trace Metal Data Dictionary</sectionLabelSpanish>
+        <fields>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2506</fieldId>
+            <fieldName>samname</fieldName>
+            <fieldLabelSpanish>Laboratorio de ID de la muestra</fieldLabelSpanish>
+            <fieldLabelEnglish>Laboratory Sample ID</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2507</fieldId>
+            <fieldName>studyid</fieldName>
+            <fieldLabelSpanish>identificación del participante</fieldLabelSpanish>
+            <fieldLabelEnglish>Participant ID</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2508</fieldId>
+            <fieldName>visitid</fieldName>
+            <fieldLabelSpanish>Visite ID</fieldLabelSpanish>
+            <fieldLabelEnglish>Visit ID</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2508</fieldId>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish>First Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Primera Visita</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2508</fieldId>
+                <fieldValue>2</fieldValue>
+                <fieldValueLabelEnglish>Second Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Segunda visita</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2508</fieldId>
+                <fieldValue>3</fieldValue>
+                <fieldValueLabelEnglish>Third Visit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Tercera visita</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2509</fieldId>
+            <fieldName>conc</fieldName>
+            <fieldLabelSpanish>concentración de analito</fieldLabelSpanish>
+            <fieldLabelEnglish>Analyte concentration (ng/mL)</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>Concentration in terms of ng/mL (ug/L) for all analytes, samples below the LOD have concentrations equal to 1/2 the LOD value</fieldNoteSpanish>
+            <fieldNoteEnglish>Concentration in terms of ng/mL (ug/L) for all analytes, samples below the LOD have concentrations equal to 1/2 the LOD value</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2510</fieldId>
+            <fieldName>BLOD</fieldName>
+            <fieldLabelSpanish>Por debajo del límite de detección</fieldLabelSpanish>
+            <fieldLabelEnglish>Below Limit of Detection</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2510</fieldId>
+                <fieldValue>0</fieldValue>
+                <fieldValueLabelEnglish>No</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>No</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2510</fieldId>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish>Yes,below detection limit</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Sí, por debajo del límite de detección</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2511</fieldId>
+            <fieldName>analyte</fieldName>
+            <fieldLabelSpanish>Nombre del analito</fieldLabelSpanish>
+            <fieldLabelEnglish>Analyte Name</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Al</fieldValue>
+                <fieldValueLabelEnglish>Al</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Al</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>As</fieldValue>
+                <fieldValueLabelEnglish>As</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>As</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Cd</fieldValue>
+                <fieldValueLabelEnglish>Cd</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Cd</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Co</fieldValue>
+                <fieldValueLabelEnglish>Co</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Co</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Cr</fieldValue>
+                <fieldValueLabelEnglish>Cr</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Cr</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Cu</fieldValue>
+                <fieldValueLabelEnglish>Cu</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Cu</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Fe</fieldValue>
+                <fieldValueLabelEnglish>Fe</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Fe</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Mn</fieldValue>
+                <fieldValueLabelEnglish>Mn</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mn</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Mo</fieldValue>
+                <fieldValueLabelEnglish>Mo</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Mo</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Ni</fieldValue>
+                <fieldValueLabelEnglish>Ni</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Ni</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Pb(208)</fieldValue>
+                <fieldValueLabelEnglish>Pb(208)</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Pb(208)</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Sb</fieldValue>
+                <fieldValueLabelEnglish>Sb</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Sb</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Se</fieldValue>
+                <fieldValueLabelEnglish>Se</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Se</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Tl</fieldValue>
+                <fieldValueLabelEnglish>Tl</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Tl</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>U</fieldValue>
+                <fieldValueLabelEnglish>U</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>U</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>V</fieldValue>
+                <fieldValueLabelEnglish>V</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>V</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>W</fieldValue>
+                <fieldValueLabelEnglish>W</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>W</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2511</fieldId>
+                <fieldValue>Zn</fieldValue>
+                <fieldValueLabelEnglish>Zn</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Zn</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2512</fieldId>
+            <fieldName>analyte_full</fieldName>
+            <fieldLabelSpanish>Analito Nombre</fieldLabelSpanish>
+            <fieldLabelEnglish>Full Analyte Name</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldValues>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Aluminum</fieldValue>
+                <fieldValueLabelEnglish>Aluminum</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Aluminum</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Arsenic</fieldValue>
+                <fieldValueLabelEnglish>Arsenic</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Arsenic</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Cadmium</fieldValue>
+                <fieldValueLabelEnglish>Cadmium</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Cadmium</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Cobalt</fieldValue>
+                <fieldValueLabelEnglish>Cobalt</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Cobalt</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Chromium</fieldValue>
+                <fieldValueLabelEnglish>Chromium</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Chromium</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Copper</fieldValue>
+                <fieldValueLabelEnglish>Copper</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Copper</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Iron</fieldValue>
+                <fieldValueLabelEnglish>Iron</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Iron</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Manganese</fieldValue>
+                <fieldValueLabelEnglish>Manganese</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Manganese</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Molybdenum</fieldValue>
+                <fieldValueLabelEnglish>Molybdenum</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Molybdenum</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Nickel</fieldValue>
+                <fieldValueLabelEnglish>Nickel</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Nickel</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Lead (208)</fieldValue>
+                <fieldValueLabelEnglish>Lead (208)</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Lead (208)</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Antimony</fieldValue>
+                <fieldValueLabelEnglish>Antimony</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Antimony</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Selenium+G1124</fieldValue>
+                <fieldValueLabelEnglish>Selenium+G1124</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Selenium+G1124</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Thallium</fieldValue>
+                <fieldValueLabelEnglish>Thallium</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Thallium</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Uranium</fieldValue>
+                <fieldValueLabelEnglish>Uranium</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Uranium</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Vanadium</fieldValue>
+                <fieldValueLabelEnglish>Vanadium</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Vanadium</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Tungsten</fieldValue>
+                <fieldValueLabelEnglish>Tungsten</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Tungsten</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldId>2512</fieldId>
+                <fieldValue>Zinc</fieldValue>
+                <fieldValueLabelEnglish>Zinc</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Zinc</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2513</fieldId>
+            <fieldName>date_analyzed</fieldName>
+            <fieldLabelSpanish>Fecha del análisis</fieldLabelSpanish>
+            <fieldLabelEnglish>Date of Analysis</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>YYYY-MM</fieldNoteSpanish>
+            <fieldNoteEnglish>YYYY-MM</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2514</fieldId>
+            <fieldName>analysis_source</fieldName>
+            <fieldLabelSpanish>Fuente de los datos</fieldLabelSpanish>
+            <fieldLabelEnglish>Source of the Data</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+            <fieldNoteSpanish>1-100</fieldNoteSpanish>
+            <fieldNoteEnglish>1-100</fieldNoteEnglish>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2515</fieldId>
+            <fieldName>analysis_method</fieldName>
+            <fieldLabelSpanish>Método de análisis</fieldLabelSpanish>
+            <fieldLabelEnglish>Method of Analysis</fieldLabelEnglish>
+            <fieldType>text</fieldType>
+          </field>
+          <field>
+            <sectionId>138</sectionId>
+            <fieldId>2516</fieldId>
+            <fieldName>batch</fieldName>
+            <fieldLabelSpanish>Número de lote</fieldLabelSpanish>
+            <fieldLabelEnglish>Batch Number  </fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+          </field>
+        </fields>
+      </section>
+    </sections>
+  </form>
+</dataDictionary>
