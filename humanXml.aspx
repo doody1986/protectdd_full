@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="humanXml.aspx.cs" Inherits="protectdd_humanXml" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="humanXml.aspx.cs" Inherits="protectdd_humanXml" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -91,18 +91,18 @@ color: #F4E69F;
 
 </style>
     <script src="JScript.js" type="text/javascript"></script>
-        <script type="text/javascript">
+    <script type="text/javascript">
 
-            var language = "English";
-            var defaultLabel = "UNLABELED";
+        var language = "English";
+        var defaultLabel = "UNLABELED";
 
-            function languageChange() {
-                $(".formSection").fadeOut(100);
-                $("#loader").fadeIn(200);
-                $(".main").empty();
-                language = $('input[name=languageChoice]:checked', '#form1').val()
-                getXML();
-            }
+        function languageChange() {
+            $(".formSection").fadeOut(100);
+            $("#loader").fadeIn(200);
+            $(".main").empty();
+            language = $('input[name=languageChoice]:checked', '#form1').val()
+            getXML();
+        }
 
         $(document).ready(function () {
             $.ajax({
@@ -130,7 +130,10 @@ color: #F4E69F;
 
             $(xml).find("form").each(function () {
 
-                constructionString += '<div class="formSection" id="formSection' + $(this).find("formId").text() + '" onClick="showChildren(this)">' + $(this).find("formLabel" + language).text();
+                constructionString += '<div class="formSection" id="formSection"' + 
+                                      $(this).find("formId").text() + 
+                                      ' onClick="showChildren(this)">' + 
+                                      $(this).find("formLabel" + language).text();
 
                 $(this).find("sections").each(function () {
 
@@ -157,6 +160,7 @@ color: #F4E69F;
 
                                 var constraint = "";
                                 var notes = "";
+                                var branchlogic = "";
 
                                 if($(this).find("fieldConstraints").text() != "") {
 
@@ -167,6 +171,12 @@ color: #F4E69F;
                                 if ($(this).find("fieldNote" + language).text() != "") {
 
                                     notes = "Notes: " + $(this).find("fieldNote" + language).text();
+
+                                }
+
+                                if  ($(this).find("fieldBranchingLogic").text() != "") {
+
+                                    branchlogic = "Branching logic: " + $(this).find("fieldBranchingLogic").text();
 
                                 }
 
@@ -240,12 +250,13 @@ color: #F4E69F;
             <div >
                 <input type="radio" name="languageChoice" onchange="languageChange()" value="English" checked="checked"/>English<br />
                 <input type="radio" name="languageChoice" onchange="languageChange()" value="Spanish"/>Spanish
-            </div><div align="center" id="loader">
-                        <img src="loader.png" id="load" width="300" height="300" style="position:absolute;z-index:300;left:50%" alt="Loading.."/>
-                    </div>
+            </div>
+            <div align="center" id="loader">
+                <img src="loader.png" id="load" width="300" height="300" style="position:absolute;z-index:300;left:50%" alt="Loading.."/>
+            </div>
             <div class="main">
                     
-             </div>
+            </div>
  
             <div class="clear"></div>
 
