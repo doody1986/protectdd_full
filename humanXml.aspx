@@ -130,9 +130,7 @@ color: #F4E69F;
 
             $(xml).find("form").each(function () {
 
-                constructionString += '<div class="formSection" id="formSection"' + 
-                                      $(this).find("formId").text() + 
-                                      ' onClick="showChildren(this)">' + 
+                constructionString += '<div class="formSection">' + 
                                       $(this).find("formLabel" + language).text();
 
                 $(this).find("sections").each(function () {
@@ -152,7 +150,8 @@ color: #F4E69F;
                         }
 
 
-                        constructionString += '<div class="sectionSection" onClick="showChildren(this)">' + sectionLabeledText;
+                        constructionString += '<div class="sectionSection">' + 
+                                              sectionLabeledText;
 
                         $(this).find("fields").each(function () {
 
