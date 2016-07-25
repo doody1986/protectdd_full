@@ -9052,7 +9052,7 @@
             </fieldValues>
           </field>
           <field>
-            <fieldName>dataentrystaffV2a</fieldName>
+            <fieldName>dataentrystaffv2a</fieldName>
             <fieldLabelSpanish>¿;Quien entra los datos?</fieldLabelSpanish>
             <fieldLabelEnglish>; Who enters the data?</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60233,7 +60233,7 @@
             <fieldBranchingLogic>[BTHU_A]='2'</fieldBranchingLogic>
           </field>
           <field>
-            <fieldName>BthU_C</fieldName>
+            <fieldName>bthu_c</fieldName>
             <fieldLabelSpanish>Resultado del U/C Materno</fieldLabelSpanish>
             <fieldLabelEnglish>Results of U / C Mother</fieldLabelEnglish>
             <fieldType>radio</fieldType>
@@ -60255,7 +60255,7 @@
             </fieldValues>
           </field>
           <field>
-            <fieldName>bthU_CA</fieldName>
+            <fieldName>bthu_ca</fieldName>
             <fieldLabelSpanish>Flora Bacteriana Anormal</fieldLabelSpanish>
             <fieldLabelEnglish>Abnormal Bacterial Flora</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60770,7 +60770,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthbpsysT4HRS</fieldName>
+            <fieldName>bthbpsyst4hrs</fieldName>
             <fieldLabelSpanish>Presión arterial sistólica 4 horas después de la admisión</fieldLabelSpanish>
             <fieldLabelEnglish>Systolic blood four hours after admission</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60790,7 +60790,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthbpsysT2STAGE</fieldName>
+            <fieldName>bthbpsyst2stage</fieldName>
             <fieldLabelSpanish>Presión arterial sistólica al principio de la 2a etapa del trabajo de parto</fieldLabelSpanish>
             <fieldLabelEnglish>Systolic blood pressure at the beginning of the 2nd stage of labor</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60810,7 +60810,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthbpsysTPP</fieldName>
+            <fieldName>bthbpsystpp</fieldName>
             <fieldLabelSpanish>Presión arterial sistólica 15 minutos después del parto</fieldLabelSpanish>
             <fieldLabelEnglish>Systolic blood pressure 15 minutes after birth</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -62102,7 +62102,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bth DELIVERYTIME</fieldName>
+            <fieldName>bth_deliverytime</fieldName>
             <fieldLabelSpanish>Hora del Nacimiento</fieldLabelSpanish>
             <fieldLabelEnglish>Time of Birth</fieldLabelEnglish>
             <fieldType>text</fieldType>
