@@ -60285,7 +60285,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bth1HR50GR</fieldName>
+            <fieldName>bth1hr50gr</fieldName>
             <fieldLabelSpanish>Resultado de glucemia 1 hora despues de haber ingerido 50 grs de glucosa</fieldLabelSpanish>
             <fieldLabelEnglish>Glucose results 1 hours after ingesting 50 grams of glucose</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60780,7 +60780,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthbpdiast4HRS</fieldName>
+            <fieldName>bthbpdiast4hrs</fieldName>
             <fieldLabelSpanish>Presión arterial diastólica 4 horas después de la admisión</fieldLabelSpanish>
             <fieldLabelEnglish>Diastolic blood pressure four hours after admission</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60800,7 +60800,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthbpdiast2STAGE</fieldName>
+            <fieldName>bthbpdiast2stage</fieldName>
             <fieldLabelSpanish>Presión arterial diastólica al principio del la 2a etapa del trabajo de parto</fieldLabelSpanish>
             <fieldLabelEnglish>Diastolic blood pressure at the beginning of the 2nd stage of labor</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60840,7 +60840,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthp4HRS</fieldName>
+            <fieldName>bthp4hrs</fieldName>
             <fieldLabelSpanish>Frecuencia cardiaca (pulso) a las 4 hrs después de la admisión</fieldLabelSpanish>
             <fieldLabelEnglish>Heart rate (pulse) at 4 hrs after admission</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60850,7 +60850,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthp2STAGE</fieldName>
+            <fieldName>bthp2stage</fieldName>
             <fieldLabelSpanish>Frecuencia cardíaca (pulso) al princio de la 2a etapa del trabajo de parto</fieldLabelSpanish>
             <fieldLabelEnglish>Heart rate (pulse) to princio of the 2nd stage of labor</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60880,7 +60880,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>btht4HRS</fieldName>
+            <fieldName>btht4hrs</fieldName>
             <fieldLabelSpanish>Temperatura a las 4 hrs después de la admisión</fieldLabelSpanish>
             <fieldLabelEnglish>Temperature at 4 hrs after admission</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60890,7 +60890,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>btht2STAGE</fieldName>
+            <fieldName>btht2stage</fieldName>
             <fieldLabelSpanish>Temperatura al prinicio de la 2a etapa del trabajo de parto</fieldLabelSpanish>
             <fieldLabelEnglish>Temperature at prinicio of the 2nd stage of labor</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60920,7 +60920,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthrf4HRS</fieldName>
+            <fieldName>bthrf4hrs</fieldName>
             <fieldLabelSpanish>Frecuencia Respiratoria a las 4 hrs despues de la admisión</fieldLabelSpanish>
             <fieldLabelEnglish>Respiration at 4 hrs after admission</fieldLabelEnglish>
             <fieldType>text</fieldType>
@@ -60930,7 +60930,7 @@
             <fieldBranchingLogic />
           </field>
           <field>
-            <fieldName>bthrf2STAGE</fieldName>
+            <fieldName>bthrf2stage</fieldName>
             <fieldLabelSpanish>Frecuencia Respiratoria al princio de la 2a etapa del trabajo de parto</fieldLabelSpanish>
             <fieldLabelEnglish>Princio Respiration to the 2nd stage of labor</fieldLabelEnglish>
             <fieldType>text</fieldType>
