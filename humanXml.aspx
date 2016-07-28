@@ -83,11 +83,19 @@ color: #F4E69F;
     font-size: 14px;
 }
 
+.fieldBranchingLogic
+{
+    float:left;
+    width: 400px;
+    font-size: 14px;
+}
+
 .fix
 {
     height: 1px;
     clear:both;
 }
+
 
 </style>
     <script src="JScript.js" type="text/javascript"></script>
@@ -179,13 +187,29 @@ color: #F4E69F;
 
                                 }
 
-                                constructionString += '<div class="fieldSection"><div class="fieldName"><span class="fieldLabel">(' + $(this).find("fieldName").text() + ')</span> ' + $(this).find("fieldLabel" + language).text() + '</div><hr /><div class="fieldType">Data Type: ' + $(this).find("fieldType").text() + '</div><div class="fieldConstraints">' + constraint + '</div><div class="fieldNotes">'+notes+'</div><div class="fix">&nbsp;</div>';
+                                constructionString += '<div class="fieldSection"><div class="fieldName"><span class="fieldLabel">(' +
+                                                      $(this).find("fieldName").text() +
+                                                      ')</span> ' +
+                                                      $(this).find("fieldLabel" + language).text() +
+                                                      '</div><hr /><div class="fieldType">Data Type: ' +
+                                                      $(this).find("fieldType").text() +
+                                                      '</div><div class="fieldConstraints">' +
+                                                      constraint +
+                                                      '</div><div class="fieldNotes">' +
+                                                      notes +
+                                                      '</div><div class="fieldBranchingLogic">' +
+                                                      branchlogic +
+                                                      '</div><div class="fix">&nbsp;</div>';
 
                                 $(this).find("fieldValues").each(function () {
 
                                     $(this).find("fieldData").each(function () {
 
-                                        constructionString += '<div class="fieldValueSection">(' + $(this).find("fieldValue").text() + ') ' + $(this).find("fieldValueLabel" + language).text() + '</div>';
+                                        constructionString += '<div class="fieldValueSection">(' +
+                                                              $(this).find("fieldValue").text() +
+                                                              ') ' +
+                                                              $(this).find("fieldValueLabel"+language).text() +
+                                                              '</div>';
 
                                     });
                                 });
