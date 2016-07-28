@@ -183,7 +183,9 @@ color: #F4E69F;
 
                                 if  ($(this).find("fieldBranchingLogic").text() != "") {
 
-                                    branchlogic = "Branching logic: " + $(this).find("fieldBranchingLogic").text();
+                                    branchlogic = "Branching logic: Only when " +
+                                                  $(this).find("fieldBranchingLogic").text() +
+                                                  " can this field be not NULL";
 
                                 }
 
