@@ -36,7 +36,7 @@
 <body>
     <form id="form1" runat="server">
 
-    <div class="fieldSection">NOTE: When you have selected a data dictionary to explore please click to expand each area.  You can access down to the field/variable values level (meaning click on the name of the fields/variable to see potential values if there is limit amount of values).<br /><br />If you have any questions please email Can Yegen @ c.yegen@neu.edu</div>
+    <div class="fieldSection">NOTE: When you have selected a data dictionary to explore please click to expand each area.  You can access down to the field/variable values level (meaning click on the name of the fields/variable to see potential values if there is limit amount of values).<br /><br />If you have any questions please email Shi Dong dong.sh@husky.neu.edu</div>
     <div>
         <div class="formSection"><a href="humanXml.aspx">Human Subject Data Dictionary</a> 
         </div>

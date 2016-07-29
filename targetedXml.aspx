@@ -117,7 +117,7 @@ color: #F4E69F;
 
             $.ajax({
                 type: "GET",
-                url: "humandd.xml",
+                url: "targeteddd.xml",
                 dataType: "xml",
                 success: xmlParser
             });
