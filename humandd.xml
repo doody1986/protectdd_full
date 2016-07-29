@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf8"?>
 <dataDictionary>
   <form>
     <formName>initial_screening</formName>
@@ -1517,11 +1516,6 @@
             <fieldBranchingLogic />
             <fieldValues>
               <fieldData>
-                <fieldValue>3</fieldValue>
-                <fieldValueLabelEnglish>American Indian or Alaska Native</fieldValueLabelEnglish>
-                <fieldValueLabelSpanish>Indígena Americana o Indígena de Alaska</fieldValueLabelSpanish>
-              </fieldData>
-              <fieldData>
                 <fieldValue>1</fieldValue>
                 <fieldValueLabelEnglish>white</fieldValueLabelEnglish>
                 <fieldValueLabelSpanish>Blanca</fieldValueLabelSpanish>
@@ -1530,6 +1524,11 @@
                 <fieldValue>2</fieldValue>
                 <fieldValueLabelEnglish>Black or African American</fieldValueLabelEnglish>
                 <fieldValueLabelSpanish>Negra o Afro-americana</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>3</fieldValue>
+                <fieldValueLabelEnglish>American Indian or Alaska Native</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish>Indígena Americana o Indígena de Alaska</fieldValueLabelSpanish>
               </fieldData>
               <fieldData>
                 <fieldValue>4</fieldValue>
@@ -1547,7 +1546,7 @@
                 <fieldValueLabelSpanish>Mestiza</fieldValueLabelSpanish>
               </fieldData>
               <fieldData>
-                <fieldValue>7</fieldValue>
+                <fieldValue>97</fieldValue>
                 <fieldValueLabelEnglish>Some other race</fieldValueLabelEnglish>
                 <fieldValueLabelSpanish>Alguna otra raza</fieldValueLabelSpanish>
               </fieldData>
@@ -5541,38 +5540,6 @@
             <fieldNoteEnglish />
             <fieldConstraints />
             <fieldBranchingLogic>[prevpregcomp]='0'</fieldBranchingLogic>
-            <fieldValues>
-              <fieldData>
-                <fieldValue>0</fieldValue>
-                <fieldValueLabelEnglish>No</fieldValueLabelEnglish>
-                <fieldValueLabelSpanish>No</fieldValueLabelSpanish>
-              </fieldData>
-              <fieldData>
-                <fieldValue>1</fieldValue>
-                <fieldValueLabelEnglish>Yes</fieldValueLabelEnglish>
-                <fieldValueLabelSpanish>Sí</fieldValueLabelSpanish>
-              </fieldData>
-              <fieldData>
-                <fieldValue>888</fieldValue>
-                <fieldValueLabelEnglish>refuses</fieldValueLabelEnglish>
-                <fieldValueLabelSpanish>Rehúsa</fieldValueLabelSpanish>
-              </fieldData>
-              <fieldData>
-                <fieldValue>999</fieldValue>
-                <fieldValueLabelEnglish> Do not know</fieldValueLabelEnglish>
-                <fieldValueLabelSpanish> No Sabe</fieldValueLabelSpanish>
-              </fieldData>
-            </fieldValues>
-          </field>
-          <field>
-            <fieldName>prevuti</fieldName>
-            <fieldLabelSpanish>Durante sus embarazos previos, ¿;tuvo usted infecciones del tracto urinario?</fieldLabelSpanish>
-            <fieldLabelEnglish>During her previous pregnancies?; Did you urinary tract infections?</fieldLabelEnglish>
-            <fieldType>radio</fieldType>
-            <fieldNoteSpanish />
-            <fieldNoteEnglish />
-            <fieldConstraints />
-            <fieldBranchingLogic />
             <fieldValues>
               <fieldData>
                 <fieldValue>0</fieldValue>
@@ -10876,7 +10843,7 @@
             <fieldNoteSpanish />
             <fieldNoteEnglish />
             <fieldConstraints />
-            <fieldBranchingLogic>[medhistskip]='1'</fieldBranchingLogic>
+            <fieldBranchingLogic />
             <fieldValues>
               <fieldData>
                 <fieldValue>0</fieldValue>
