@@ -1,0 +1,401 @@
+<dataDictionary>
+  <form>
+    <formName>toxicity</formName>
+    <formLabelEnglish>toxicity</formLabelEnglish>
+    <formLabelSpanish>toxicity</formLabelSpanish>
+    <sections>
+      <section>
+        <sectionLabelEnglish>UNLABELED</sectionLabelEnglish>
+        <sectionLabelSpanish>UNLABELED</sectionLabelSpanish>
+        <fields>
+          <field>
+            <fieldName>sampleinfo</fieldName>
+            <fieldLabelSpanish>Two types</fieldLabelSpanish>
+            <fieldLabelEnglish>Two types</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldNoteSpanish />
+            <fieldNoteEnglish />
+            <fieldConstraints />
+            <fieldBranchingLogic />
+            <fieldValues>
+              <fieldData>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish> GIS information</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> GIS information</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>2</fieldValue>
+                <fieldValueLabelEnglish> human ID.</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> human ID.</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <fieldName>sampletype</fieldName>
+            <fieldLabelSpanish>Five types</fieldLabelSpanish>
+            <fieldLabelEnglish>Five types</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldNoteSpanish />
+            <fieldNoteEnglish />
+            <fieldConstraints />
+            <fieldBranchingLogic />
+            <fieldValues>
+              <fieldData>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish> groundwater</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> groundwater</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>2</fieldValue>
+                <fieldValueLabelEnglish> tap water</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> tap water</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>3</fieldValue>
+                <fieldValueLabelEnglish> sediment</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> sediment</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>4</fieldValue>
+                <fieldValueLabelEnglish> surface water</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> surface water</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>5</fieldValue>
+                <fieldValueLabelEnglish> urine.</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> urine.</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <fieldName>collectingdate</fieldName>
+            <fieldLabelSpanish />
+            <fieldLabelEnglish />
+            <fieldType>date</fieldType>
+            <fieldNoteSpanish>mm/dd/yyyy</fieldNoteSpanish>
+            <fieldNoteEnglish>mm/dd/yyyy</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>enrichmentfactor</fieldName>
+            <fieldLabelSpanish>The enrichment factors</fieldLabelSpanish>
+            <fieldLabelEnglish>The enrichment factors</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish />
+            <fieldNoteEnglish />
+            <fieldConstraints>0.1 - 10</fieldConstraints>
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>stresscategory</fieldName>
+            <fieldLabelSpanish>Five stress categories</fieldLabelSpanish>
+            <fieldLabelEnglish>Five stress categories</fieldLabelEnglish>
+            <fieldType>radio</fieldType>
+            <fieldNoteSpanish />
+            <fieldNoteEnglish />
+            <fieldConstraints />
+            <fieldBranchingLogic />
+            <fieldValues>
+              <fieldData>
+                <fieldValue>1</fieldValue>
+                <fieldValueLabelEnglish> chemical stress: 30 genes</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> chemical stress: 30 genes</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>2</fieldValue>
+                <fieldValueLabelEnglish> general stress: 20 genes</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> general stress: 20 genes</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>3</fieldValue>
+                <fieldValueLabelEnglish> oxidative stress: 44 genes</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> oxidative stress: 44 genes</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>4</fieldValue>
+                <fieldValueLabelEnglish> DNA damage: 39 genes</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> DNA damage: 39 genes</fieldValueLabelSpanish>
+              </fieldData>
+              <fieldData>
+                <fieldValue>5</fieldValue>
+                <fieldValueLabelEnglish> protein stress: 19 genes.</fieldValueLabelEnglish>
+                <fieldValueLabelSpanish> protein stress: 19 genes.</fieldValueLabelSpanish>
+              </fieldData>
+            </fieldValues>
+          </field>
+          <field>
+            <fieldName>genename</fieldName>
+            <fieldLabelSpanish>148 genes are observed in the assay. Four genes (SLN1, PGM2, GND2 and YAP1) belong to both chemical stress and general stress. Other genes belong to one stress category.</fieldLabelSpanish>
+            <fieldLabelEnglish>148 genes are observed in the assay. Four genes (SLN1, PGM2, GND2 and YAP1) belong to both chemical stress and general stress. Other genes belong to one stress category.</fieldLabelEnglish>
+            <fieldType>string</fieldType>
+            <fieldNoteSpanish />
+            <fieldNoteEnglish />
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>replication</fieldName>
+            <fieldLabelSpanish>Triplicates are normally conducted in each assay</fieldLabelSpanish>
+            <fieldLabelEnglish>Triplicates are normally conducted in each assay</fieldLabelEnglish>
+            <fieldType>int</fieldType>
+            <fieldNoteSpanish />
+            <fieldNoteEnglish />
+            <fieldConstraints>1 - 3</fieldConstraints>
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_1</fieldName>
+            <fieldLabelSpanish>0:01:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:01:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_2</fieldName>
+            <fieldLabelSpanish>0:06:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:06:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_3</fieldName>
+            <fieldLabelSpanish>0:11:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:11:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_4</fieldName>
+            <fieldLabelSpanish>0:16:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:16:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_5</fieldName>
+            <fieldLabelSpanish>0:21:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:21:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_6</fieldName>
+            <fieldLabelSpanish>0:26:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:26:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_7</fieldName>
+            <fieldLabelSpanish>0:31:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:31:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_8</fieldName>
+            <fieldLabelSpanish>0:36:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:36:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_9</fieldName>
+            <fieldLabelSpanish>0:41:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:41:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_10</fieldName>
+            <fieldLabelSpanish>0:46:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:46:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_11</fieldName>
+            <fieldLabelSpanish>0:51:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:51:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_12</fieldName>
+            <fieldLabelSpanish>0:56:01</fieldLabelSpanish>
+            <fieldLabelEnglish>0:56:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_13</fieldName>
+            <fieldLabelSpanish>1:01:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:01:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_14</fieldName>
+            <fieldLabelSpanish>1:06:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:06:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_15</fieldName>
+            <fieldLabelSpanish>1:11:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:11:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_16</fieldName>
+            <fieldLabelSpanish>1:16:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:16:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_17</fieldName>
+            <fieldLabelSpanish>1:21:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:21:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_18</fieldName>
+            <fieldLabelSpanish>1:26:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:26:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_19</fieldName>
+            <fieldLabelSpanish>1:31:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:31:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_20</fieldName>
+            <fieldLabelSpanish>1:36:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:36:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_21</fieldName>
+            <fieldLabelSpanish>1:41:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:41:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_22</fieldName>
+            <fieldLabelSpanish>1:46:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:46:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_23</fieldName>
+            <fieldLabelSpanish>1:51:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:51:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_24</fieldName>
+            <fieldLabelSpanish>1:56:01</fieldLabelSpanish>
+            <fieldLabelEnglish>1:56:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+          <field>
+            <fieldName>timepoint_25</fieldName>
+            <fieldLabelSpanish>2:01:01</fieldLabelSpanish>
+            <fieldLabelEnglish>2:01:01</fieldLabelEnglish>
+            <fieldType>decimal</fieldType>
+            <fieldNoteSpanish>Use empty space for N/A</fieldNoteSpanish>
+            <fieldNoteEnglish>Use empty space for N/A</fieldNoteEnglish>
+            <fieldConstraints />
+            <fieldBranchingLogic />
+          </field>
+        </fields>
+      </section>
+    </sections>
+  </form>
+</dataDictionary>
